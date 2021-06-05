@@ -25,7 +25,7 @@ export default {
     'addProductToCart'
   ]),
   created () {
-    this.$store.dispatch('products/getAllProducts')
+    this.$store.dispatch('products/getAllProducts')  // 这个在 store --> modules --> products.js 里面
   }
 }
 </script>
